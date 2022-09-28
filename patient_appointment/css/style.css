@@ -1,0 +1,60 @@
+body{
+    font-family:"Roboto";
+}
+h1{
+    text-align:center;
+}
+div{
+    width:100%;
+    border:1px solid black;
+    height: 25ch;
+    background-color: blue;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align:left;
+    padding: 8px;
+}
+th{
+    background-color:#36486b;
+
+}
+tr:nth-child(even){
+    background-color: #9FE2BF;
+}
+#formsu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 35ch;
+    text-justify: center;
+    padding:10px 0px 10px 30px;
+    border-radius: 10px;
+    background-color:#36486b;
+    color: white;
+}
+#formsu input{
+    margin-bottom: 5px;
+    width: 80%;
+    margin-top:5px;
+}
+
+#button{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    background-color: rgb(146, 129, 191);
+
+
+}
+
+.Div{
+    background-color:#9FE2BF;
+    border: 1px solid black;
+}
